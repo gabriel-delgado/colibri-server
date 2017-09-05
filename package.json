@@ -1,0 +1,27 @@
+{
+  "name": "colibri-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-delgado/colibri-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-delgado/colibri-server/issues"
+  },
+  "homepage": "https://github.com/gabriel-delgado/colibri-server#readme",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.15.4",
+    "socket.io": "2.0.3"
+  }
+}
